@@ -60,8 +60,4 @@ cp .env.example .env
 - [ ] Phase 4 — Evals & guardrails
 - [ ] Phase 5 — API, UI & deployment
 
-## Learning log
 
-| Phase | Energy (1–5) | Notes |
-|-------|--------------|-------|
-| 0     |              |       |
