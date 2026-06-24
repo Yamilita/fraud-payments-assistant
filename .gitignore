@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Env
+.env
+
+# Data (raw/processed kept out of git, structure kept via .gitkeep)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# DuckDB
+*.duckdb
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Vector store
+chroma/
+*.sqlite3
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+
+# IDE / OS
+.vscode/
+.DS_Store
